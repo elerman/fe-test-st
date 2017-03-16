@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col-md-12">
+            <p class="text-center">List count: {{this.items.length}}</p>
+            <ul id="itemsList" class="list-unstyled">
+                {{#each this.items}} <li>{{> ListItem this}}</li> {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>
